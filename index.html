@@ -7,24 +7,28 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<div id="particles"></div>
+<div class="loader"></div>
 
 <nav>
 
-<h2>Sheetal.</h2>
+<div class="logo">Sheetal.</div>
 
 <ul>
 
+<li><a href="#home">Home</a></li>
+
 <li><a href="#about">About</a></li>
+
+<li><a href="#experience">Experience</a></li>
 
 <li><a href="#skills">Skills</a></li>
 
@@ -36,19 +40,37 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 </nav>
 
-<section class="hero">
+<section id="home" class="hero">
 
-<img src="assets/profile.jpg">
+<div class="hero-left">
 
-<h1>Hello, I'm <span>Sheetal Sharma</span></h1>
+<h3>Hello, I'm</h3>
 
-<h3><span id="typing"></span></h3>
+<h1>Sheetal <span>Sharma</span></h1>
+
+<h2><span id="typing"></span></h2>
 
 <p>
-Passionate about Quality Management, Excel, Digital Marketing & Modern Web Development.
+
+Passionate QMS Executive, Digital Marketing learner and BBA student with experience in quality management, Excel reporting, audits and process improvement.
+
 </p>
 
-<a href="assets/resume.pdf" class="btn" download>Download Resume</a>
+<div class="buttons">
+
+<a href="#contact" class="btn">Hire Me</a>
+
+<a href="assets/resume.pdf" class="btn2" download>Download Resume</a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<img src="assets/profile.jpg" alt="Sheetal">
+
+</div>
 
 </section>
 
@@ -56,41 +78,89 @@ Passionate about Quality Management, Excel, Digital Marketing & Modern Web Devel
 
 <h2>About Me</h2>
 
+<div class="about-box">
+
 <p>
 
-I am a passionate learner with experience in Quality Management System (QMS), Internal Audit, Shop Floor Inspection, Excel Reporting and Digital Marketing.
+I am Sheetal Sharma, currently working as a QMS Executive while pursuing my Bachelor of Business Administration (BBA). I have practical experience in Internal Audits, Shop Floor Inspection, Quality Documentation, Excel Reporting and Digital Marketing.
 
-I enjoy creating modern websites and solving real business problems using technology.
+I love learning new technologies and creating modern websites with beautiful UI.
 
 </p>
 
+</div>
+
 </section>
 
-<section id="skills">
+<section id="experience">
+
+<h2>Experience</h2>
+
+<div class="timeline">
+
+<div class="item">
+
+<h3>QMS Executive</h3>
+
+<h4>RG Industries</h4>
+
+<p>
+Quality Management System, Internal Audit, Shop Floor Inspection, Excel Reporting, Daily & Weekly Rejection Reports.
+</p>
+
+</div>
+
+<div class="item">
+
+<h3>Digital Marketing Trainee</h3>
+
+<h4>Skillyards Pvt. Ltd.</h4>
+
+<p>
+
+Google Ads, Website Development, Social Media Marketing, Canva and Content Creation.
+
+</p>
+
+</div>
+
+</div>
+
+</section><section id="skills">
 
 <h2>Skills</h2>
 
-<div class="cards">
+<div class="skills-grid">
 
-<div class="card">HTML</div>
+<div class="skill-card">
+<i class="fa-solid fa-chart-line"></i>
+<h3>QMS</h3>
+</div>
 
-<div class="card">CSS</div>
+<div class="skill-card">
+<i class="fa-solid fa-file-excel"></i>
+<h3>MS Excel</h3>
+</div>
 
-<div class="card">JavaScript</div>
+<div class="skill-card">
+<i class="fa-solid fa-magnifying-glass-chart"></i>
+<h3>Internal Audit</h3>
+</div>
 
-<div class="card">Excel</div>
+<div class="skill-card">
+<i class="fa-solid fa-industry"></i>
+<h3>Shop Floor Inspection</h3>
+</div>
 
-<div class="card">QMS</div>
+<div class="skill-card">
+<i class="fa-solid fa-bullhorn"></i>
+<h3>Digital Marketing</h3>
+</div>
 
-<div class="card">Internal Audit</div>
-
-<div class="card">Canva</div>
-
-<div class="card">Shopify</div>
-
-<div class="card">WordPress</div>
-
-<div class="card">Digital Marketing</div>
+<div class="skill-card">
+<i class="fa-solid fa-globe"></i>
+<h3>Website Development</h3>
+</div>
 
 </div>
 
@@ -100,27 +170,22 @@ I enjoy creating modern websites and solving real business problems using techno
 
 <h2>Projects</h2>
 
-<div class="project">
+<div class="project-container">
 
+<div class="project-card">
+<h3>Quality Management Reports</h3>
+<p>Daily rejection reports, VCS meeting reports and Excel quality analysis.</p>
+</div>
+
+<div class="project-card">
 <h3>Portfolio Website</h3>
-
-<p>Premium animated personal portfolio.</p>
-
+<p>Modern animated personal portfolio using HTML, CSS & JavaScript.</p>
 </div>
 
-<div class="project">
-
-<h3>Excel Dashboard</h3>
-
-<p>Interactive reporting dashboard.</p>
-
+<div class="project-card">
+<h3>Digital Marketing</h3>
+<p>Google Ads, Social Media Marketing, Content Creation & Website Management.</p>
 </div>
-
-<div class="project">
-
-<h3>QMS Reporting</h3>
-
-<p>Quality reporting & audit documentation.</p>
 
 </div>
 
@@ -128,7 +193,11 @@ I enjoy creating modern websites and solving real business problems using techno
 
 <section id="contact">
 
-<h2>Contact</h2>
+<h2>Contact Me</h2>
+
+<p>Email: sheetalsharma@4368@gmail.com</p>
+
+<p>Agra, Uttar Pradesh</p>
 
 <div class="social">
 
@@ -136,18 +205,20 @@ I enjoy creating modern websites and solving real business problems using techno
 
 <a href="#"><i class="fab fa-github"></i></a>
 
-<a href="#"><i class="fas fa-envelope"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
 
 </div>
 
 </section>
 
+<footer>
+
+<p>© 2026 Sheetal Sharma | All Rights Reserved</p>
+
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
-
 <script src="script.js"></script>
 
 </body>
-
 </html>
